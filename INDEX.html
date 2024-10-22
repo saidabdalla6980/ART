@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Drawing</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline CSS for this example */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #333; color: #fff; padding: 15px; text-align: center; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 10px; }
+        nav ul li a { color: #fff; text-decoration: none; }
+        main { padding: 20px; }
+        footer { background-color: #333; color: #fff; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0; }
+        .section { padding: 20px; margin: 20px 0; background-color: #f9f9f9; }
+        .gallery img { width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto; }
+        .page { background-color: #f0f0f0; margin-bottom: 20px; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Drawing Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <!-- Additional pages -->
+                <li><a href="#page1">Page 1</a></li>
+                <li><a href="#page2">Page 2</a></li>
+                <!-- Add more links for additional pages -->
+                <!-- Continue up to page 80 -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h2>Welcome to My Art Portfolio</h2>
+        <p Bgcolor="red">Art drawing is a fundamental and expressive medium that captures the essence of creativity through simple marks on a surface. This form of visual art involves creating images with tools such as pencils, pens, and charcoal, translating ideas and emotions into tangible forms. Drawing has been a vital practice since ancient times, evolving from rudimentary sketches on cave walls to intricate masterpieces in various styles and techniques.</p>
+        <p>The beauty of art drawing lies in its versatility and accessibility. Artists can explore a range of techniques, from delicate line work to bold, expressive strokes. Drawing serves as both a practice tool for mastering artistic skills and a standalone art form that can convey profound messages and aesthetics. Whether capturing the minutiae of everyday life or abstracting complex concepts, drawing allows for a deep exploration of visual expression.</p>
+        <p>Throughout history, drawing has played a crucial role in the development of artistic techniques and styles. Renowned artists from Leonardo da Vinci to modern illustrators have used drawing to experiment with composition, perspective, and anatomy. This rich tradition underscores the importance of drawing in artistic education and its role in pushing the boundaries of visual art.</p>
+        <p>Today, art drawing continues to thrive as a dynamic medium, embraced by both traditional and contemporary artists. It provides a means for personal expression and a way to connect with audiences on a fundamental level. The ability to create detailed, intricate works or spontaneous, expressive pieces makes drawing a timeless and versatile art form.</p>
+        <p>The diversity of drawing styles and techniques ensures that there is always something new to discover and appreciate. From realistic portraits to abstract designs, drawing remains a central component of artistic practice and appreciation. As a reflection of human creativity and imagination, art drawing continues to inspire and captivate audiences around the world.</p>
+        <img src="images/featured-artwork.jpg" alt="Featured Artwork" class="gallery">
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <ul>
+            <li><a href="#landscapes">Landscapes</a></li>
+            <li><a href="#portraits">Portraits</a></li>
+            <li><a href="#abstract">Abstract</a></li>
+        </ul>
+    </section>
+
+    <!-- Category Pages -->
+    <section id="landscapes" class="section">
+        <h2>Landscapes</h2>
+        <p>Gallery of landscapes.</p>
+        <img src="ASSETS/CSS/images/landscape 1.jpg" alt=""width=300px height=300px" class="gallery">
+        <img src="ASSETS/CSS/images/landscape%202.jpg" alt="" width="300px" height="300px" class="gallery">
+    </section>
+
+    <section id="portraits" class="section">
+        <h2>Portraits</h2>
+        <p>Gallery of portraits.</p>
+        <img src="ASSETS/CSS/images/portrait%201.jpg" alt="" width="300px" height="300px" class="gallery">
+        <img src="ASSETS/CSS/images/portrait%202.jpg" alt="" width="300px" height="300px" class="gallery">
+    </section>
+
+    <section id="abstract" class="section">
+        <h2>Abstract</h2>
+        <p>Gallery of abstract art.</p>
+        <img src="ASSETS/CSS/images/abstract%201.jpg" alt="" width="300px" height="300px" class="gallery">
+        <img src="ASSETS/CSS/images/abstract%202.jpg" alt="" width="300px" height="300px" class="gallery">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About the Artist</h2>
+        <p>Artist: Said Abdalla Omar</p>
+        <p>Said Abdalla Omar is a talented artist known for his intricate and expressive drawings. With a keen eye to detail and a passion for capturing the essence of his subjects, Said brings a unique perspective to his art. His work spans various styles and techniques, reflecting both his technical skill and creative vision.</p>
+        <p>Drawing has been a significant part of Said's artistic journey, allowing him to explore and convey complex ideas and emotions. Through his art, he aims to connect with viewers and inspire them to see the world through a different lens.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to get in touch, please contact us using the information below:</p>
+        <p>Email the artist: <a href="mailto:saidabdalla6980@gmail.com">saidabdalla6980@gmail.com</a></p>
+        <p>Artist's Contact Number: <a href="tel:+254792152316">254792152316</a></p>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Location: UzimaART, KAREN C, Off Silanga Road, NAIROBI</p>
+    </section>
+    <!-- Events Section -->
+    <section id="events" class="section">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Event 1: Description, Date, and Location</li>
+            <li>Event 2: Description, Date, and Location</li>
+            <!-- More events if needed -->
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <h2>Testimonials</h2>
+        <blockquote>
+            <p>"Amazing artwork! Truly inspiring." - Client Name</p>
+        </blockquote>
+        <!-- More testimonials -->
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section">
+        <h2>Shop</h2>
+        <ul>
+            <li><a href="#artwork1">Artwork 1</a> - $100</li>
+            <li><a href="#artwork2">Artwork 2</a> - $150</li>
+            <!-- More items if needed -->
+        </ul>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <h2>Frequently Asked Questions</h2>
+        <dl>
+            <dt>Question 1</dt>
+            <dd>Answer to question 1.</dd>
+            <dt>Question 2</dt>
+            <dd>Answer to question 2.</dd>
+            <!-- More FAQs if needed -->
+        </dl>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy" class="section">
+        <h2>Privacy Policy</h2>
+        <p>Your privacy is important to us. This privacy statement explains what personal data we collect and how we use it.</p>
+        <!-- Detailed privacy policy text -->
+    </section>
+    <footer>
+        <p>&copy; 2024 Art Portfolio by Said Abdalla Omar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
